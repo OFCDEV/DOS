@@ -1,0 +1,4 @@
+date_var=$(date)
+cal_var=$(cal)
+echo "Date:$date_var"
+echo "Calender:$cal_var"

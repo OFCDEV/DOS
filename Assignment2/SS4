@@ -1,0 +1,3 @@
+echo "Enter your name and regNo."
+read name_var reg_var
+echo "My name is $name_var and regNo is $reg_var."

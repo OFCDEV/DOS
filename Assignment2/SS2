@@ -1,0 +1,4 @@
+# An interactive shell script
+echo "What is your name?"
+read name_var
+echo "Hello $name_var."

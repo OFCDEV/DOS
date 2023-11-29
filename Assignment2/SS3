@@ -1,0 +1,6 @@
+echo "What is your name?"
+read name_var
+echo "My name is $name_var."
+echo "Write your reg No?"
+read reg_var
+echo "Your regNo is $reg_var."

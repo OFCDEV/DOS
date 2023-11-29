@@ -1,0 +1,3 @@
+cat a.txt b.txt c.txt > merged
+sort -n -oresult merged
+cat result
