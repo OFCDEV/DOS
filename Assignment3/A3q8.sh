@@ -1,9 +1,5 @@
-# Compare 3 numbers and print smallest
-
-echo "Enter 3 numbers:"
-
+echo "Enter 3 nums:"
 read n1 n2 n3
-
 
 if [[ $n1 -lt $n2 ]]; then
     if [[ $n1 -lt $n3 ]]; then
