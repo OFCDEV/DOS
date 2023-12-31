@@ -1,17 +1,21 @@
-#10
-
-echo "Enter to check if there's a DOS class or not "
-read myclass
-
-case $myclass in
-	"Monday" )
-		echo "You have a DOS Class.";;
-	"Tuesday" )
-		echo "You have a DOS Class.";;
-	"Wednesday" )
-		echo "You have a DOS Class.";;
-	"Saturday" )
-		echo "You have a DOS Class.";;
-	*)
-		echo "You have no DOS Class.";;
+echo "Enter the day (1-7): Monday-Sunday: "
+read dayno
+roomno="C-128"
+labroom='C-022'
+nolab="No lab on given day"
+case $dayno in
+  1)
+    echo "12-1PM in $roomno";;
+  2)
+    echo "10-11AM in $roomno";;
+  3)
+    echo "10-12PM in $labroom";;
+  4)
+    echo $nolab;;
+  5)
+    echo $nolab;;
+  6)
+    echo "9-10AM in $roomno";;
+  7)
+    echo "Holiday";;
 esac
