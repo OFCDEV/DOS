@@ -1,5 +1,10 @@
-if cmp -s "$1" "$2"
+file1=$1
+file2=$2
+
+if cmp -s file1 file2
 then
-	echo "Files are same. Let's delete one"
-	rm $2
+  echo "Same file, deleting..."
+  rm $2
+else
+  echo "Files are different"
 fi
