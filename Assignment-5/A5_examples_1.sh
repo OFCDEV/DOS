@@ -64,9 +64,9 @@ done
 
 #!/bin/bash
 # Infinite for loop
-for (( ; ; ))
-do
-      echo "CTRL+C to exit"
-done
+# for (( ; ; ))
+# do
+#       echo "CTRL+C to exit"
+# done
 
 
